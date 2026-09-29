@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://raiz-cafe-vue.vercel.app/sitemap.xml
