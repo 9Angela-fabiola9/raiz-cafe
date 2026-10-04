@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router';
 import TarjetaProducto from '../components/TarjetaProducto.vue';
 import { PRODUCTOS, BENEFICIOS } from '../datos.js';
+import SeccionClima from '../components/SeccionClima.vue';
 
 
 const beneficios = BENEFICIOS;
@@ -61,4 +62,6 @@ const destacados = PRODUCTOS.filter((p) => p.destacado);
       </RouterLink>
     </p>
   </section>
+
+    <SeccionClima />
 </template>
